@@ -8,8 +8,11 @@ const Product = () => {
         <div className="p-circle"></div>
         <div className="p-circle"></div>
       </div>
+      <a href="http://lama.dev" target="_blank" rel="noreferrer">
+        <img src="" alt="" className="p-image" />
+      </a>
     </div>
   );
-};
+}; 
 
 export default Product;
