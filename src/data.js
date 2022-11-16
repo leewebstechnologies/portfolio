@@ -26,7 +26,7 @@ export const products = [
   },
   {
     id: 6,
-    img: "https://img.freepik.com/free-vector/realistic-ui-ux-background_52683-69487.jpg?w=1380&t=st=1668458415~exp=1668459015~hmac=fc94bf3b06df886bff56962f1a21bffc3b1adae46a77ddcbfe83c884bf09617d",
+    img: "https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/old-blog-uploads/tasks-and-responsibilities-of-ux-vs-ui-designers.jpg",
     link: "http://lama.dev",
   },
 ];
