@@ -14,6 +14,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setDone(true);
 
     emailjs
       .sendForm(
@@ -25,7 +26,6 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true);
         },
         (error) => {
           console.log(error.text);
@@ -55,7 +55,8 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What's your story?</b> Get in touch. Always available for projects.
+            <b>What's your story?</b> Get in touch. Always available for
+            projects.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
@@ -63,24 +64,28 @@ const Contact = () => {
               type="text"
               placeholder="Name"
               name="user_name"
+              required
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
               placeholder="Subject"
               name="user_subject"
+              required
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
               placeholder="Email"
               name="user_email"
+              required
             />
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
               rows="5"
               placeholder="Message"
               name="message"
+              required
             />
             <button>Submit</button>
             <h1>{done && "Thank you..."}</h1>
