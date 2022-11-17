@@ -68,15 +68,10 @@
 }
 
 .a-award-title {
-  margin-left: -150px;
   font-weight: bold;
   color: #555;
   margin-bottom: 10px;
 }
-
- .a-award-desc {
-  margin-left: -150px;
- }
 
 @media screen and (max-width: 480px){
   .a {
