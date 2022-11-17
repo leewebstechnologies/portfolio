@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img src={Address} alt="" className="c-icon" />
-              6B, Oluwagbebe Street, Akowonjo-Shasha, Alimosho, Lagos.
+              Lagos, Nigeria.
             </div>
           </div>
         </div>
